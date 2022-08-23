@@ -13,11 +13,11 @@ body{
 .flex_container{
     display:flex;
     justify-content: flex-start;
-    width:80%;
-    height: 60rem;
+    width:60%;
+    height: 40rem;
     background-color: grey;
     border: 10px solid grey;
-    margin:0rem 0rem 0rem 0rem;
+    margin:0rem 0rem 0rem 5rem;
 }
 
 .fix{
