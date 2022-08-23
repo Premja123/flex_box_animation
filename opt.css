@@ -1,0 +1,34 @@
+body{
+   
+    cursor: pointer;
+}
+
+.flex_box{
+    background-color:white;
+    padding: 20px;
+    border: 10px solid grey;
+    flex-grow:1;
+}
+
+.flex_container{
+    display:flex;
+    justify-content: flex-start;
+    width:80%;
+    height: 60rem;
+    background-color: grey;
+    border: 10px solid grey;
+    margin:4rem 0rem 5rem 18rem;
+}
+
+.fix{
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    flex:1;
+}
+
+.expand{
+    flex-grow:2;
+    transition: 2s ease-in-out;
+}
+
